@@ -1,54 +1,90 @@
-# CV
+# CV #
 
-### Maroz Dzmitry
+## Maroz Dzmitry ##
 
-- Linkedin: linkedin.com/in/dmitriy-moroz
-- GitHub: github.com/mordvic
-- Telephone: +375 (44) 7-101-672
-- Email: morozdvic@gmail.com
-- Location: Belarus, Minsk
+**Linkedin**: linkedin.com/in/dmitriy-moroz
 
-### About me
+**GitHub**: github.com/mordvic
 
-I'm a QA and a problem solver. I'm learning JavaScript in The Rolling Scope School. I thrive on utilizing my peers’ and my combined experience to produce creative, elegant solutions to difficult problems.
+**Telephone**: [+375 (44) 710-16-72](tel:+375(44)710-16-72)
 
-### Skills
+**Email**: morozdvic@gmail.com
 
-- JavaScript (ES2015+)
-- HTML
-- CSS and preprocessors suach as Sass and Less
-- Basic knowledge in React, Java
+**Location**: Belarus, Minsk
 
-### Education
+## About me ##
 
-1. **2008 - 2012** (specialized secondary education) "Belarusian state academy of communication"
+I’m software QA Engineer. For todays, I have more than 1.5 year of experience
+in Quality Assurance. 
 
-- _Faculty_: Faculty of Telecommunications
+I’m learning Front-End development, that it is help me
+to create new features for our mobile product as a software developer.
 
-- _Specialties_: Infocommunication technologies
+## Skills ##
 
-2. **2012 - 2015** ( higher education) "Belarusian state academy of communication"
+* #### Testing: ####
+  * Experience in mobile and desktop testing
+  * Experienced in functional regression, UI/UX, cross browser testing
+  * Experienced in designing test cases, bug reports
+  * Knowledge in Agile/Scrum software development process
+  * Preparing test data and configuring appropriate QA environment * Testing REST API (Swagger)
+  * Analyzing of Log files
+  * Documented software bugs using Bug Tracking System (our inner bug tracking system and GitLab)
 
-- _Faculty_: Faculty of Telecommunications
 
-- _Specialties_: Infocommunication technologies
+* #### Development: ####
+  * JavaScript (ES2015+) and JSON
+  * HTML
+  * CSS and preprocessors Sass
+  * Basic knowledge in React, Java
 
-3. **2013 - 2015** (second higher education) "Belarusian state academy of communication"
+* #### Database: ####
+  * MSQL/MySQL
 
-- _Faculty_: Faculty of correspondence and distance education
 
-- _Specialties_: Marketing
+* #### Tools: ####
+  * DevTools
+  * Fiddler
+  * VSCode
+  * Android Studio
+  * X-Code
+    
+* #### Version Control: ####
+  * Git
+  * SVN
 
-### Career
 
-1. **2014 - 2015** Specialist of Client Services Department in "Unitary Enterprise A1"
+## Education ##
+* **2013 - 2015** (second higher education) "Belarusian state academy of communication"
 
-2. **2015 - 2015** Engineer of telecommunication in "Republican Unitary Telecommunication Enterprise Beltelecom"
+  *  _Faculty_: Faculty of correspondence and distance education
 
-3. **2015 - 2019** Engineer of telecommunication in "Ministry of Emergency Situation of Republic of Belarus";
+  *  _Specialties_: Marketing
 
-4. **2019** - QA in "Intrahealth" Company
+* **2012 - 2015** ( higher education) "Belarusian state academy of communication"
+   
+  *  _Faculty_: Faculty of Telecommunications
 
-### English
+  * _Specialties_: Infocommunication technologies
+
+* **2008 - 2012** (specialized secondary education) "Belarusian state academy of communication"
+
+  *  _Faculty_: Faculty of Telecommunications
+
+  *  _Specialties_: Infocommunication technologies
+
+## Career ##
+* **2019** - QA in "Intrahealth" Company;
+  
+
+* **2015 - 2019** Engineer of telecommunication in "Ministry of Emergency Situation of Republic of Belarus";
+  
+
+* **2015 - 2015** Engineer of telecommunication in "Republican Unitary Telecommunication Enterprise Beltelecom";
+  
+
+* **2014 - 2015** Specialist of Client Services Department in "Unitary Enterprise A1";
+
+## English ##
 
 Level: B1+
