@@ -4,90 +4,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./assets/css/style.css" rel="stylesheet" />
-    <title>Document</title>
+    <link href="./assets/css/style.css" rel="stylesheet"/>
+    <title>CV</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="main-header"></header>
-        <h1 class="main-header__title">CV</h1>
-        <h2 class="main-header__sub-title">Dzmitry Maroz</h2>
-        <div class="main-header__wrapper">
-            <div class="contacts">
-                <ul class="contacts-list">
-                    <li class="contacts-list__item"><a href="https://linkedin.com/in/dmitriy-moroz"><span
-                                class="icon icon-ln"></span>LinkedIn</a></li>
-                    <li class="contacts-list__item"><a href="https://github.com/mordvic"><span
-                                class="icon icon-git"></span>GitHub</a></li>
-                    <li class="contacts-list__item"><span class="icon-tel"></span>Telephone: +375 (44) 7-101-672</li>
-                    <li class="contacts-list__item"><span class="icon-email"></span>Email: morozdvic@gmail.com</li>
-                    <li class="contacts-list__item"><span class="icon-location"></span>Location: Belarus, Minsk</li>
-                </ul>
-            </div>
-            <div class="photo">
-                <img src="/assets/img/dmitriy.jpg" width="200" height="200" alt="Dmitriy Maroz">
-            </div>
+<div class="container grid">
+    <aside class="side-block">
+        <div class="photo">
+            <img src="assets/img/dmitriy.jpg" alt="Dmitriy Maroz" width="200" height="200">
         </div>
-        </header>
-        <main class="main-content">
-            <section class="about">
-                <h2 class="about__title">About me</h2>
-                <p class="about__text">I'm a QA and a problem solver. I'm learning JavaScript in The Rolling Scope
-                    School.
-                    I thrive on utilizing my peers’ and my combined experience to produce creative,
-                    elegant solutions to difficult problems.
-                </p>
-            </section>
-            <section class="skills">
-                <h2 class="skills__title">Skills</h2>
-                <ul class="skills-list">
-                    <li class="skills-list__item">JavaScript (ES2015+)</li>
-                    <li class="skills-list__item">HTML</li>
-                    <li class="skills-list__item">CSS and preprocessors suach as Sass and Less</li>
-                    <li class="skills-list__item">Basic knowledge in React, Java</li>
-                </ul>
-            </section>
-            <section class="education">
-                <h2 class="education__title">Education</h2>
-                <ul class="education-list">
-                    <li class="education-list__item">
-                        <b>2008 - 2012</b>
-                        (specialized secondary education) "Belarusian state academy of communication"
-                        <p><em>Faculty:</em> Faculty of Telecommunications</p>
-                        <p><em>Specialties:</em> Infocommunication technologies</p>
-                    </li>
-                    <li class="education-list__item">
-                        <b>2012 - 2015</b> (higher education) "Belarusian state academy of communication"
-                        <p><em>Faculty:</em> Faculty of Telecommunications</p>
-                        <p><em>Specialties:</em> Infocommunication technologies</p>
-                    </li>
-                    <li class="education-list__item">
-                        <b>2013 - 2015</b> (second higher education) "Belarusian state academy of communication"
-                        <p><em>Faculty:</em> Faculty of correspondence and distance education</p>
-                        <p><em>Specialties:</em> Marketing</p>
-                    </li>
-                </ul>
-            </section>
-            <section class="career">
-                <h2 class="career__title">Career</h2>
-                <ul class="career-list">
-                    <li class="career-list__item"><b>2014 - 2015</b> Specialist of Client Services Department in
-                        "Unitary Enterprise A1"</li>
-                    <li class="career-list__item"><b>2015 - 2015</b> Engineer of telecommunication in "Republican
-                        Unitary Telecommunication Enterprise Beltelecom"</li>
-                    <li class="career-list__item"><b>2015 - 2019</b> Engineer of telecommunication in "Ministry of
-                        Emergency Situation of Republic of Belarus"</li>
-                    <li class="career-list__item"><b>2019</b> - QA in "Intrahealth" Company</li>
-                </ul>
-            </section>
-            <section class="laguage-skill">
-                <h2 class="language-skill__title">English</h2>
-                <p class="laguage-skill__level"><b>Level:</b> B+</p>
-            </section>
+        <div class="contacts">
+            <ul class="contacts-list">
+                <li class="contacts-list__item"><a href="https://linkedin.com/in/dmitriy-moroz"><span
+                        class="icon icon-ln"></span>LinkedIn</a></li>
+                <li class="contacts-list__item"><a href="https://github.com/mordvic"><span
+                        class="icon icon-git"></span>GitHub</a></li>
+                <li class="contacts-list__item"><span class="icon-tel"></span>Telephone: +375 (44) 7-101-672</li>
+                <li class="contacts-list__item"><span class="icon-email"></span>Email: morozdvic@gmail.com</li>
+                <li class="contacts-list__item"><span class="icon-location"></span>Location: Belarus, Minsk</li>
+            </ul>
+        </div>
+    </aside>
+    <header class="header">
+        <h1 class="visual-hidden">CV</h1>
+        <h2>Moroz Dmitriy</h2>
+        <h3>Junior Front-End Developer</h3>
+    </header>
 
-        </main>
-    </div>
+    <main class="content">
+        <section class="about">
+            <h3 class="about__title">About me</h3>
+            <p class="about__text">
+                I’m software QA Engineer. For todays, I have more than 1.5 year of experience in Quality Assurance.
+                I’m learning Front-End development, that it is help me to create new features for our mobile product as
+                a software developer.
+            </p>
+        </section>
+        <section class="skills">
+            <h3 class="skills__title">Skills</h3>
+
+            <h4>Testing</h4>
+            <ul class="testing-skills">
+                <li class="testing-skill">Experience in mobile and desktop testing</li>
+                <li class="testing-skill">Experienced in functional regression, UI/UX, cross browser testing</li>
+                <li class="testing-skill">Experienced in designing test cases, bug reports</li>
+                <li class="testing-skill">Knowledge in Agile/Scrum software development process</li>
+                <li class="testing-skill">Preparing test data and configuring appropriate QA environment</li>
+                <li class="testing-skill">Testing REST API (Swagger)</li>
+                <li class="testing-skill">Analyzing of Log files</li>
+                <li class="testing-skill">Documented software bugs using Bug Tracking System (our inner bug tracking
+                    system and GitLab)
+                </li>
+            </ul>
+
+            <h4>Development</h4>
+            <ul class="development-skills">
+                <li class="development-skill">JavaScript (ES2015+) and JSON</li>
+                <li class="development-skill">HTML</li>
+                <li class="development-skill">CSS and preprocessors Sass</li>
+                <li class="development-skill">Basic knowledge in React, Java</li>
+            </ul>
+
+            <h4>Database</h4>
+            <p>MSQL/MySQL</p>
+
+            <h4>Tools</h4>
+            <ul class="tool-skills">
+                <li class="tool-skill">DevTools</li>
+                <li class="tool-skill">Fiddler</li>
+                <li class="tool-skill">VSCode</li>
+                <li class="tool-skill">Android Studio</li>
+                <li class="tool-skill">X-Code</li>
+            </ul>
+
+            <h4>Version Control</h4>
+            <ul class="vc-skills">
+                <li class="vc-skill">Git</li>
+                <li class="vc-skill">SVN</li>
+            </ul>
+        </section>
+        <section class="education">
+            <h3 class="education__title">Education</h3>
+            <ul class="education-list">
+                <li class="education-list__item">
+                    <b>2013 - 2015</b> (second higher education) "Belarusian state academy of communication"
+                    <p><em>Faculty:</em> Faculty of correspondence and distance education</p>
+                    <p><em>Specialties:</em> Marketing</p>
+                </li>
+                <li class="education-list__item">
+                    <b>2012 - 2015</b> (higher education) "Belarusian state academy of communication"
+                    <p><em>Faculty:</em> Faculty of Telecommunications</p>
+                    <p><em>Specialties:</em> Infocommunication technologies</p>
+                </li>
+                <li class="education-list__item">
+                    <b>2008 - 2012</b>
+                    (specialized secondary education) "Belarusian state academy of communication"
+                    <p><em>Faculty:</em> Faculty of Telecommunications</p>
+                    <p><em>Specialties:</em> Infocommunication technologies</p>
+                </li>
+            </ul>
+        </section>
+        <section class="career">
+            <h3 class="career__title">Career</h3>
+            <ul class="career-list">
+                <li class="career-list__item"><b>2019</b> - QA in "Intrahealth" Company</li>
+                <li class="career-list__item"><b>2015 - 2019</b> Engineer of telecommunication in "Ministry of
+                    Emergency Situation of Republic of Belarus"
+                </li>
+                <li class="career-list__item"><b>2015 - 2015</b> Engineer of telecommunication in "Republican
+                    Unitary Telecommunication Enterprise Beltelecom"
+                </li>
+                <li class="career-list__item"><b>2014 - 2015</b> Specialist of Client Services Department in
+                    "Unitary Enterprise A1"
+                </li>
+            </ul>
+        </section>
+        <section class="laguage-skill">
+            <h3 class="language-skill__title">English</h3>
+            <p class="laguage-skill__level"><b>Level:</b> B+</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="logo">
+            <a href="https://rs.school">
+                <img src="assets/img/rs_school.svg" alt="rs-school" width="300"
+                     height="50">
+            </a>
+        </div>
+    </footer>
+</div>
 </body>
-
 </html>
