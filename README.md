@@ -1,4 +1,4 @@
 HTML version - https://mordvic.github.io/rsschool-cv/
 
 
-Markdown version - hhttps://mordvic.github.io/rsschool-cv/cv
+Markdown version - https://mordvic.github.io/rsschool-cv/cv
