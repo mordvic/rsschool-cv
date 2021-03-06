@@ -27,7 +27,8 @@ to create new features for our mobile product as a software developer.
   * Experienced in functional regression, UI/UX, cross browser testing
   * Experienced in designing test cases, bug reports
   * Knowledge in Agile/Scrum software development process
-  * Preparing test data and configuring appropriate QA environment * Testing REST API (Swagger)
+  * Preparing test data and configuring appropriate QA environment 
+  * Testing REST API (Swagger)
   * Analyzing of Log files
   * Documented software bugs using Bug Tracking System (our inner bug tracking system and GitLab)
 
