@@ -12,7 +12,7 @@
 <div class="container grid">
     <aside class="side-block">
         <div class="photo">
-            <img src="assets/img/dmitriy.jpg" alt="Dmitriy Maroz" width="200" height="200">
+            <img src="assets/img/dmitriy.jpg" alt="Dmitriy Maroz" width="250" height="250">
         </div>
         <div class="contacts">
             <ul class="contacts-list">
@@ -25,6 +25,21 @@
                 <li class="contacts-list__item"><span class="icon-location"></span>Location: Belarus, Minsk</li>
             </ul>
         </div>
+        <section class="portfolio">
+            <h3 class="portfolio__title">Portfolio</h3>
+            <ul class="portfolio-list">
+                <li class="portfolio-item">
+                    <a href="https://mordvic.github.io/mishka/">
+                        <img src="assets/img/mishka.png" alt="mishka" width="250" height="400">
+                    </a>
+                </li>
+                <li class="portfolio-item">
+                    <a href="https://mordvic.github.io/calculator/">
+                        <img src="assets/img/calc.png" alt="calculator" width="250" height="400">
+                    </a>
+                </li>
+            </ul>
+        </section>
     </aside>
     <header class="header">
         <h1 class="visual-hidden">CV</h1>
@@ -43,46 +58,55 @@
         </section>
         <section class="skills">
             <h3 class="skills__title">Skills</h3>
+            <div class="skill-box__wrapper">
+                <div class="skill-box">
+                    <h4>Testing</h4>
+                    <ul class="testing-skills">
+                        <li class="testing-skill">Experience in mobile and desktop testing</li>
+                        <li class="testing-skill">Experienced in functional regression, UI/UX, cross browser testing</li>
+                        <li class="testing-skill">Experienced in designing test cases, bug reports</li>
+                        <li class="testing-skill">Knowledge in Agile/Scrum software development process</li>
+                        <li class="testing-skill">Preparing test data and configuring appropriate QA environment</li>
+                        <li class="testing-skill">Testing REST API (Swagger)</li>
+                        <li class="testing-skill">Analyzing of Log files</li>
+                        <li class="testing-skill">Documented software bugs using Bug Tracking System (our inner bug tracking
+                            system and GitLab)
+                        </li>
+                    </ul>
+                </div>
+                <div class="skill-box">
+                    <h4>Development</h4>
+                    <ul class="development-skills">
+                        <li class="development-skill">JavaScript (ES2015+) and JSON</li>
+                        <li class="development-skill">HTML</li>
+                        <li class="development-skill">CSS and preprocessors Sass</li>
+                        <li class="development-skill">Basic knowledge in React, Java</li>
+                    </ul>
+                </div>
+                <div class="skill-box">
+                    <h4>Database</h4>
+                    <p>MSQL/MySQL</p>
+                </div>
 
-            <h4>Testing</h4>
-            <ul class="testing-skills">
-                <li class="testing-skill">Experience in mobile and desktop testing</li>
-                <li class="testing-skill">Experienced in functional regression, UI/UX, cross browser testing</li>
-                <li class="testing-skill">Experienced in designing test cases, bug reports</li>
-                <li class="testing-skill">Knowledge in Agile/Scrum software development process</li>
-                <li class="testing-skill">Preparing test data and configuring appropriate QA environment</li>
-                <li class="testing-skill">Testing REST API (Swagger)</li>
-                <li class="testing-skill">Analyzing of Log files</li>
-                <li class="testing-skill">Documented software bugs using Bug Tracking System (our inner bug tracking
-                    system and GitLab)
-                </li>
-            </ul>
+                <div class="skill-box">
+                    <h4>Tools</h4>
+                    <ul class="tool-skills">
+                        <li class="tool-skill">DevTools</li>
+                        <li class="tool-skill">Fiddler</li>
+                        <li class="tool-skill">VSCode</li>
+                        <li class="tool-skill">Android Studio</li>
+                        <li class="tool-skill">X-Code</li>
+                    </ul>
+                </div>
 
-            <h4>Development</h4>
-            <ul class="development-skills">
-                <li class="development-skill">JavaScript (ES2015+) and JSON</li>
-                <li class="development-skill">HTML</li>
-                <li class="development-skill">CSS and preprocessors Sass</li>
-                <li class="development-skill">Basic knowledge in React, Java</li>
-            </ul>
-
-            <h4>Database</h4>
-            <p>MSQL/MySQL</p>
-
-            <h4>Tools</h4>
-            <ul class="tool-skills">
-                <li class="tool-skill">DevTools</li>
-                <li class="tool-skill">Fiddler</li>
-                <li class="tool-skill">VSCode</li>
-                <li class="tool-skill">Android Studio</li>
-                <li class="tool-skill">X-Code</li>
-            </ul>
-
-            <h4>Version Control</h4>
-            <ul class="vc-skills">
-                <li class="vc-skill">Git</li>
-                <li class="vc-skill">SVN</li>
-            </ul>
+                <div class="skill-box">
+                    <h4>Version Control</h4>
+                    <ul class="vc-skills">
+                        <li class="vc-skill">Git</li>
+                        <li class="vc-skill">SVN</li>
+                    </ul>
+                </div>
+            </div>
         </section>
         <section class="education">
             <h3 class="education__title">Education</h3>
@@ -120,9 +144,9 @@
                 </li>
             </ul>
         </section>
-        <section class="laguage-skill">
+        <section class="language">
             <h3 class="language-skill__title">English</h3>
-            <p class="laguage-skill__level"><b>Level:</b> B+</p>
+            <p class="language-skill__level"><b>Level:</b> B+</p>
         </section>
     </main>
 

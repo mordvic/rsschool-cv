@@ -7,24 +7,24 @@ body {
     margin: 0;
 }
 
-h1 {
-    font-size: 3rem;
-}
-
 h2 {
-    margin: 0 0 1rem 0;
+    margin: 0;
     font-size: 2rem;
 }
 
 h3 {
-    margin-top: 2rem;
-    margin-bottom: 0;
+    margin: 0;
     text-transform: uppercase;
 }
 
 ul {
     margin: 0;
     padding: 0;
+    list-style: none;
+}
+
+li + li {
+    margin-top: .5rem;
 }
 
 a {
@@ -72,17 +72,31 @@ p {
     margin-top: 4rem;
 }
 
-.header h2, h3 {
-    display: inline-block;
+.header h2,
+.header h3 {
     text-align: center;
 }
 
-/*.header h3 {*/
-/*    margin: 0;*/
-/*}*/
+.header h3 {
+    margin-top: 1rem;
+}
 
 .content {
     grid-column: 2/3;
+}
+
+.skill-box__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill-box {
+    width: fit-content;
+}
+
+.content section {
+    margin-top: 1.5rem;
 }
 
 .footer {
@@ -176,6 +190,63 @@ p {
     margin-top: 3rem;
 }
 
-.photo>img {
+.photo > img {
     border-radius: 50%;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.portfolio__title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.portfolio-list {
+    width: 16rem;
+}
+
+.portfolio-item a {
+    display: block;
+}
+
+.portfolio-item img {
+    object-fit: cover;
+}
+
+.portfolio-item + .portfolio-item {
+    margin-top: 1.5rem;
+}
+
+.about {
+    margin-top: 1rem;
+}
+
+.about__text {
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+.education-list {
+    margin-top: 1rem;
+}
+
+.education-list__item + .education-list__item {
+    margin-top: .5rem;
+}
+
+.career-list {
+    margin-top: 1rem;
+}
+
+.language-skill__level {
+    padding: .5rem 0;
+}
+
+.footer .logo {
+    padding: 1rem 0;
 }
