@@ -5,6 +5,7 @@ html {
 
 body {
     margin: 0;
+    font-family: "Times New Roman", sans-serif;
 }
 
 h2 {
@@ -192,6 +193,7 @@ p {
 
 .photo > img {
     border-radius: 50%;
+    box-shadow: 4px 4px 21px 0px rgba(34, 60, 80, 0.2);
 }
 
 .portfolio {
@@ -212,10 +214,17 @@ p {
 
 .portfolio-item a {
     display: block;
+    transform: scale(1);
+    transition: transform 500ms;
+}
+
+.portfolio-item a:hover {
+    transform: scale(0.9);
 }
 
 .portfolio-item img {
     object-fit: cover;
+    box-shadow: 4px 4px 21px 0px rgba(34, 60, 80, 0.2);
 }
 
 .portfolio-item + .portfolio-item {
